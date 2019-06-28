@@ -11,3 +11,6 @@ IOT_SOLUTION_PATH ?= $(abspath $(shell pwd)/../../)
 
 include $(IOT_SOLUTION_PATH)/Makefile
 include $(IDF_PATH)/make/project.mk
+
+clean:
+	rm -rvf build sdkconfig sdkconfig.old
