@@ -4,6 +4,5 @@
 #
 
 #Overwrite the IDF_PATH to the esp-idf path in submodule.
-#IDF_PATH := $(IOT_SOLUTION_PATH)/submodule/esp-idf/
 IDF_PATH := $(IOT_SOLUTION_PATH)/submodule/ESP8266_RTOS_SDK/
 include $(IOT_SOLUTION_PATH)/components/component_conf.mk
