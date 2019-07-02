@@ -9,6 +9,7 @@
 #include <stdio.h>
 
 #include "esp_system.h"
+#include "wdt.h"
 
 /******************************************************************************
  * FunctionName : app_main
@@ -19,4 +20,6 @@
 void app_main(void)
 {
     printf("SDK version:%s\n", esp_get_idf_version());
+
+    wdt_task_init();
 }
